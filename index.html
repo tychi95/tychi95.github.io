@@ -1,1 +1,51 @@
- 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<!--Authors: Tyler Chi, Liam Connor, David Isaksen, Nicholas Sukhu, Huy Vu
+	Last Modified:05-09-2018
+	
+	This is the HTML page for the home page for the IS448 Group project for team Groot.-->
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+	<!-- Title -->
+	<head>
+		<title> Home Page </title>
+		<link rel="stylesheet" href="plexorbStyle.css" type="text/css"/>
+	</head>
+
+	<!-- Body -->
+	<body>
+
+		<!-- This is the beginning of the top banner -->
+		<div class="top">
+			<img class="imgFloatLeft" src="https://swe.umbc.edu/~cliam1/is448/del3/orb2.jpg" alt="the plex orb"/>
+			<h1 class="left">&nbsp;&nbsp;PlexOrb Hotels</h1>
+			<a class="topButtons" href="https://swe.umbc.edu/~nsukhu1/is448/groupProject2/login.php">Log In</a> 
+			<a class="topButtons" href="https://swe.umbc.edu/~nsukhu1/is448/groupProject2/account.html">Create Account</a>
+			<a class="topButtons" href="https://swe.umbc.edu/~nsukhu1/is448/groupProject2/about.html">About Us</a>
+			<a class="topButtons" href="https://swe.umbc.edu/~nsukhu1/is448/groupProject2/home.html">Home</a>
+		</div>
+		<!-- This is the end of the top banner -->
+
+		<!-- Div for reset of home page -->
+		<div>
+			<!-- Div to hold intro blurb and browse button -->
+			<div id="homeTop">
+				<!-- Form that when submit is selected, sends the user to the browse page -->
+				<form action = "https://swe.umbc.edu/~nsukhu1/is448/groupProject2/browseHome.php">
+					<p class="heading">
+						Welcome to PlexOrb Hotels
+						<br />
+						<br />
+						<span class="blurb">
+						Here at PlexOrb we hope to bring a new, thrilling experience to your stay away from home. Click the Browse button below to begin your search for the perfect room for you.</span>
+					</p>
+					<p>
+						<input type="submit" value="Browse"/>
+					</p>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
